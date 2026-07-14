@@ -1,7 +1,7 @@
 {
-  "title_name": "",
-  "chapter_no": "",
-  "page_number": "",
+  "title_name": "Test1",
+  "chapter_no": "01",
+  "page_number": "05",
   "asset_name": "model.glb",
-  "isbn": ""
+  "isbn": "1234567890123"
 }
