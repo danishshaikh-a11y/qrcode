@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>3D Asset Viewer</title>
+  <title>Model</title>
 
   <!-- ============================================================= -->
   <!-- Google Analytics (GA4) - replace G-XXXXXXXXXX with your ID    -->
@@ -65,18 +65,18 @@
       }
 
       // Header display
-      document.getElementById('assetTitle').textContent =
-        META.title_name || 'Untitled Asset';
-      document.getElementById('assetMeta').textContent =
-        [
-          META.chapter_no  ? 'Chapter ' + META.chapter_no : '',
-          META.page_number ? 'Page ' + META.page_number   : '',
-          META.isbn        ? 'ISBN ' + META.isbn           : ''
-        ].filter(Boolean).join('  •  ');
+    //  document.getElementById('assetTitle').textContent =
+      //  META.title_name || 'Untitled Asset';
+      //document.getElementById('assetMeta').textContent =
+        //[
+          //META.chapter_no  ? 'Chapter ' + META.chapter_no : '',
+          //META.page_number ? 'Page ' + META.page_number   : '',
+          //META.isbn        ? 'ISBN ' + META.isbn           : ''
+        //].filter(Boolean).join('  •  ');
 
       // Fire a page/asset-open event with all metadata attached
-      track('asset_view');
-    }
+    //  track('asset_view');
+   // }
 
     // Helper: send a GA4 event with the metadata as custom parameters
     function track(eventName, extra) {
